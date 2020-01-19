@@ -1,0 +1,117 @@
+# Kill a window
+
+alt + shift + c
+	bspc node -c
+
+alt + shift + r
+	~/scripts/onreload	
+
+alt + shift + Return
+	$TERMINAL
+
+alt + shift + o
+	~/scripts/dmrun
+
+alt + shift + f
+	$TERMINAL -e lf
+
+alt + x
+	redshift -x
+
+# alt + shift +  m
+#	Mail Program
+
+alt + shift + n
+	$TERMINAL -e newsboat
+
+alt + shift + t
+	$TERMINAL -e htop
+
+alt + shift + w
+	firefox
+
+alt + shift + s
+	$TERMINAL -e tty-clock -sScbtC 4
+
+alt + shift + v
+	$TERMINAL -e vim
+
+alt + shift + q
+	killall xinit	
+
+alt + d
+	redshift -x
+
+alt + n
+	sh ~/.config/bspwm/bspwmrc
+
+alt + r
+	redshift -o 1000
+
+alt + shift + {h,j,k,l}
+        bspc node {@west -r -10,@south -r +10,@north -r -10,@east -r +10}
+
+alt + shift + {h,j,k,l}
+	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+alt + {1-9, 0}
+	bspc desktop -f '^{1-9,10}'
+
+alt + shift + {1-9, 0}
+	bspc node -d 'focused:^{1-9,10}'
+
+alt + {m,f,t}
+	bspc node -t {fullscreen,floating,tiled}
+
+alt + {h,j,k,l}
+	bspc node -f {west, south, north, east}
+
+alt + shift + {h,j,k,l}
+	bspc node -s {west, south, north, east}
+
+alt + ctrl + {h,j,k,l}
+	bspc node -s {west, south, north, east}
+
+
+
+alt + i
+	bspc node -g sticky
+
+alt + shift + i
+	bspc node -g locked
+
+alt + ctrl + i
+	bspc node -g private
+
+alt + g
+	bspc node -s biggest.local
+
+alt + y
+	bspc node --flip vertical
+
+alt + x
+	bspc node --flip horizontal
+
+alt + u
+	bspc node -B
+
+alt + e
+	bspc node -E
+
+alt + ctrl + r
+	bspc node -R 90
+
+alt + s
+	bspc node -t pseudo-tiled
+
+XF86AudioMute
+    amixer -q sset Master toggle
+
+XF86AudioLowerVolume
+    amixer -q sset Master 10%-
+
+XF86AudioRaiseVolume
+    amixer -q sset Master 10%+
+
+
+# A B D E F G P R S U Y Z

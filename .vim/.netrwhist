@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/void/.config/sxhkd'
+let g:netrw_dirhist_9='/home/void/.config/kitty'
+let g:netrw_dirhist_8='/home/void/.config/polybar'
+let g:netrw_dirhist_7='/home/void/.config/bspwm'
+let g:netrw_dirhist_6='/home/void/Documents/CompSol/ResolutionBedWebsite-Project/ResolutionBedWebsiteEdit/public_html'
+let g:netrw_dirhist_5='/home/void/Documents/CompSol/ResolutionBedWebsite-Project/ResolutionBedWebsiteEdit'
+let g:netrw_dirhist_4='/home/void/Documents/CompSol/ResolutionBedWebsite-Project'
+let g:netrw_dirhist_3='/home/void/.config/polybar'
+let g:netrw_dirhist_2='/home/void/.config/bspwm'
+let g:netrw_dirhist_1='/home/void/void-packages/srcpkgs/base-system'
